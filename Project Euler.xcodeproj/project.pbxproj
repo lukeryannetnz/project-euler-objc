@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA557D871824AB6F0084CAE4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA557D861824AB6F0084CAE4 /* Cocoa.framework */; };
+		EA557D911824AB6F0084CAE4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA557D8F1824AB6F0084CAE4 /* InfoPlist.strings */; };
+		EA557D931824AB6F0084CAE4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA557D921824AB6F0084CAE4 /* main.m */; };
+		EA557D971824AB6F0084CAE4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = EA557D951824AB6F0084CAE4 /* Credits.rtf */; };
+		EA557D9A1824AB6F0084CAE4 /* ISAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA557D991824AB6F0084CAE4 /* ISAppDelegate.m */; };
+		EA557D9D1824AB6F0084CAE4 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA557D9B1824AB6F0084CAE4 /* MainMenu.xib */; };
+		EA557DA01824AB6F0084CAE4 /* Project_Euler.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EA557D9E1824AB6F0084CAE4 /* Project_Euler.xcdatamodeld */; };
+		EA557DA21824AB6F0084CAE4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA557DA11824AB6F0084CAE4 /* Images.xcassets */; };
+		EA557DA91824AB6F0084CAE4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA557DA81824AB6F0084CAE4 /* XCTest.framework */; };
+		EA557DAA1824AB6F0084CAE4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA557D861824AB6F0084CAE4 /* Cocoa.framework */; };
+		EA557DB21824AB6F0084CAE4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA557DB01824AB6F0084CAE4 /* InfoPlist.strings */; };
+		EA557DB41824AB6F0084CAE4 /* Project_EulerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA557DB31824AB6F0084CAE4 /* Project_EulerTests.m */; };
+		EA557DC21824BF120084CAE4 /* ISPrimeCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = EA557DC11824BF120084CAE4 /* ISPrimeCalculator.m */; };
+		EA64DA9F1825F56D00684DF8 /* ISProductCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = EA64DA9E1825F56D00684DF8 /* ISProductCalculator.m */; };
+		EABDD471182E0A2900CC6DE0 /* ISProductCalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EABDD470182E0A2800CC6DE0 /* ISProductCalculatorTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA557DAB1824AB6F0084CAE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA557D7B1824AB6F0084CAE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA557D821824AB6F0084CAE4;
+			remoteInfo = "Project Euler";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA557D831824AB6F0084CAE4 /* Project Euler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project Euler.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA557D861824AB6F0084CAE4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		EA557D891824AB6F0084CAE4 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		EA557D8A1824AB6F0084CAE4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		EA557D8B1824AB6F0084CAE4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EA557D8E1824AB6F0084CAE4 /* Project Euler-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Project Euler-Info.plist"; sourceTree = "<group>"; };
+		EA557D901824AB6F0084CAE4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EA557D921824AB6F0084CAE4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA557D941824AB6F0084CAE4 /* Project Euler-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Project Euler-Prefix.pch"; sourceTree = "<group>"; };
+		EA557D961824AB6F0084CAE4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		EA557D981824AB6F0084CAE4 /* ISAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ISAppDelegate.h; sourceTree = "<group>"; };
+		EA557D991824AB6F0084CAE4 /* ISAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ISAppDelegate.m; sourceTree = "<group>"; };
+		EA557D9C1824AB6F0084CAE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		EA557D9F1824AB6F0084CAE4 /* Project_Euler.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Project_Euler.xcdatamodel; sourceTree = "<group>"; };
+		EA557DA11824AB6F0084CAE4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EA557DA71824AB6F0084CAE4 /* Project EulerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Project EulerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA557DA81824AB6F0084CAE4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EA557DAF1824AB6F0084CAE4 /* Project EulerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Project EulerTests-Info.plist"; sourceTree = "<group>"; };
+		EA557DB11824AB6F0084CAE4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EA557DB31824AB6F0084CAE4 /* Project_EulerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Project_EulerTests.m; sourceTree = "<group>"; };
+		EA557DC01824BF120084CAE4 /* ISPrimeCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISPrimeCalculator.h; sourceTree = "<group>"; };
+		EA557DC11824BF120084CAE4 /* ISPrimeCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISPrimeCalculator.m; sourceTree = "<group>"; };
+		EA64DA9D1825F56D00684DF8 /* ISProductCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISProductCalculator.h; sourceTree = "<group>"; };
+		EA64DA9E1825F56D00684DF8 /* ISProductCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISProductCalculator.m; sourceTree = "<group>"; };
+		EABDD470182E0A2800CC6DE0 /* ISProductCalculatorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISProductCalculatorTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA557D801824AB6F0084CAE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA557D871824AB6F0084CAE4 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA557DA41824AB6F0084CAE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA557DAA1824AB6F0084CAE4 /* Cocoa.framework in Frameworks */,
+				EA557DA91824AB6F0084CAE4 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA557D7A1824AB6F0084CAE4 = {
+			isa = PBXGroup;
+			children = (
+				EA557D8C1824AB6F0084CAE4 /* Project Euler */,
+				EA557DAD1824AB6F0084CAE4 /* Project EulerTests */,
+				EA557D851824AB6F0084CAE4 /* Frameworks */,
+				EA557D841824AB6F0084CAE4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA557D841824AB6F0084CAE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA557D831824AB6F0084CAE4 /* Project Euler.app */,
+				EA557DA71824AB6F0084CAE4 /* Project EulerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA557D851824AB6F0084CAE4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA557D861824AB6F0084CAE4 /* Cocoa.framework */,
+				EA557DA81824AB6F0084CAE4 /* XCTest.framework */,
+				EA557D881824AB6F0084CAE4 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA557D881824AB6F0084CAE4 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA557D891824AB6F0084CAE4 /* AppKit.framework */,
+				EA557D8A1824AB6F0084CAE4 /* CoreData.framework */,
+				EA557D8B1824AB6F0084CAE4 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		EA557D8C1824AB6F0084CAE4 /* Project Euler */ = {
+			isa = PBXGroup;
+			children = (
+				EA557D981824AB6F0084CAE4 /* ISAppDelegate.h */,
+				EA557D991824AB6F0084CAE4 /* ISAppDelegate.m */,
+				EA64DA9D1825F56D00684DF8 /* ISProductCalculator.h */,
+				EA64DA9E1825F56D00684DF8 /* ISProductCalculator.m */,
+				EA557DC01824BF120084CAE4 /* ISPrimeCalculator.h */,
+				EA557DC11824BF120084CAE4 /* ISPrimeCalculator.m */,
+				EA557DA11824AB6F0084CAE4 /* Images.xcassets */,
+				EA557D9E1824AB6F0084CAE4 /* Project_Euler.xcdatamodeld */,
+				EA557D9B1824AB6F0084CAE4 /* MainMenu.xib */,
+				EA557D8D1824AB6F0084CAE4 /* Supporting Files */,
+			);
+			path = "Project Euler";
+			sourceTree = "<group>";
+		};
+		EA557D8D1824AB6F0084CAE4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA557D8E1824AB6F0084CAE4 /* Project Euler-Info.plist */,
+				EA557D8F1824AB6F0084CAE4 /* InfoPlist.strings */,
+				EA557D921824AB6F0084CAE4 /* main.m */,
+				EA557D941824AB6F0084CAE4 /* Project Euler-Prefix.pch */,
+				EA557D951824AB6F0084CAE4 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA557DAD1824AB6F0084CAE4 /* Project EulerTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA557DB31824AB6F0084CAE4 /* Project_EulerTests.m */,
+				EA557DAE1824AB6F0084CAE4 /* Supporting Files */,
+				EABDD470182E0A2800CC6DE0 /* ISProductCalculatorTests.m */,
+			);
+			path = "Project EulerTests";
+			sourceTree = "<group>";
+		};
+		EA557DAE1824AB6F0084CAE4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA557DAF1824AB6F0084CAE4 /* Project EulerTests-Info.plist */,
+				EA557DB01824AB6F0084CAE4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA557D821824AB6F0084CAE4 /* Project Euler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA557DB71824AB6F0084CAE4 /* Build configuration list for PBXNativeTarget "Project Euler" */;
+			buildPhases = (
+				EA557D7F1824AB6F0084CAE4 /* Sources */,
+				EA557D801824AB6F0084CAE4 /* Frameworks */,
+				EA557D811824AB6F0084CAE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Project Euler";
+			productName = "Project Euler";
+			productReference = EA557D831824AB6F0084CAE4 /* Project Euler.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA557DA61824AB6F0084CAE4 /* Project EulerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA557DBA1824AB6F0084CAE4 /* Build configuration list for PBXNativeTarget "Project EulerTests" */;
+			buildPhases = (
+				EA557DA31824AB6F0084CAE4 /* Sources */,
+				EA557DA41824AB6F0084CAE4 /* Frameworks */,
+				EA557DA51824AB6F0084CAE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA557DAC1824AB6F0084CAE4 /* PBXTargetDependency */,
+			);
+			name = "Project EulerTests";
+			productName = "Project EulerTests";
+			productReference = EA557DA71824AB6F0084CAE4 /* Project EulerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA557D7B1824AB6F0084CAE4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = IS;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Luke Ryan";
+				TargetAttributes = {
+					EA557DA61824AB6F0084CAE4 = {
+						TestTargetID = EA557D821824AB6F0084CAE4;
+					};
+				};
+			};
+			buildConfigurationList = EA557D7E1824AB6F0084CAE4 /* Build configuration list for PBXProject "Project Euler" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA557D7A1824AB6F0084CAE4;
+			productRefGroup = EA557D841824AB6F0084CAE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA557D821824AB6F0084CAE4 /* Project Euler */,
+				EA557DA61824AB6F0084CAE4 /* Project EulerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA557D811824AB6F0084CAE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA557D911824AB6F0084CAE4 /* InfoPlist.strings in Resources */,
+				EA557DA21824AB6F0084CAE4 /* Images.xcassets in Resources */,
+				EA557D971824AB6F0084CAE4 /* Credits.rtf in Resources */,
+				EA557D9D1824AB6F0084CAE4 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA557DA51824AB6F0084CAE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA557DB21824AB6F0084CAE4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA557D7F1824AB6F0084CAE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA557DA01824AB6F0084CAE4 /* Project_Euler.xcdatamodeld in Sources */,
+				EA557DC21824BF120084CAE4 /* ISPrimeCalculator.m in Sources */,
+				EA64DA9F1825F56D00684DF8 /* ISProductCalculator.m in Sources */,
+				EA557D9A1824AB6F0084CAE4 /* ISAppDelegate.m in Sources */,
+				EA557D931824AB6F0084CAE4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA557DA31824AB6F0084CAE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA557DB41824AB6F0084CAE4 /* Project_EulerTests.m in Sources */,
+				EABDD471182E0A2900CC6DE0 /* ISProductCalculatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA557DAC1824AB6F0084CAE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA557D821824AB6F0084CAE4 /* Project Euler */;
+			targetProxy = EA557DAB1824AB6F0084CAE4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA557D8F1824AB6F0084CAE4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA557D901824AB6F0084CAE4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EA557D951824AB6F0084CAE4 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA557D961824AB6F0084CAE4 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		EA557D9B1824AB6F0084CAE4 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA557D9C1824AB6F0084CAE4 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		EA557DB01824AB6F0084CAE4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA557DB11824AB6F0084CAE4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA557DB51824AB6F0084CAE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EA557DB61824AB6F0084CAE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EA557DB81824AB6F0084CAE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Project Euler/Project Euler-Prefix.pch";
+				INFOPLIST_FILE = "Project Euler/Project Euler-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EA557DB91824AB6F0084CAE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Project Euler/Project Euler-Prefix.pch";
+				INFOPLIST_FILE = "Project Euler/Project Euler-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EA557DBB1824AB6F0084CAE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Project Euler.app/Contents/MacOS/Project Euler";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Project Euler/Project Euler-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Project EulerTests/Project EulerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EA557DBC1824AB6F0084CAE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Project Euler.app/Contents/MacOS/Project Euler";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Project Euler/Project Euler-Prefix.pch";
+				INFOPLIST_FILE = "Project EulerTests/Project EulerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA557D7E1824AB6F0084CAE4 /* Build configuration list for PBXProject "Project Euler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA557DB51824AB6F0084CAE4 /* Debug */,
+				EA557DB61824AB6F0084CAE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA557DB71824AB6F0084CAE4 /* Build configuration list for PBXNativeTarget "Project Euler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA557DB81824AB6F0084CAE4 /* Debug */,
+				EA557DB91824AB6F0084CAE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA557DBA1824AB6F0084CAE4 /* Build configuration list for PBXNativeTarget "Project EulerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA557DBB1824AB6F0084CAE4 /* Debug */,
+				EA557DBC1824AB6F0084CAE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EA557D9E1824AB6F0084CAE4 /* Project_Euler.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EA557D9F1824AB6F0084CAE4 /* Project_Euler.xcdatamodel */,
+			);
+			currentVersion = EA557D9F1824AB6F0084CAE4 /* Project_Euler.xcdatamodel */;
+			path = Project_Euler.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EA557D7B1824AB6F0084CAE4 /* Project object */;
+}
